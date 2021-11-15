@@ -1,0 +1,284 @@
+.wd-content span{
+	display: block;
+    margin: 15px 0;
+}
+
+/* nav menu css */
+
+header nav .nav-list li {
+    position: relative;
+}
+header nav .nav-list li .sub-menu {
+    position: absolute;
+    margin: 0;
+    background-color: transparent;
+    margin-top: 10px;
+}
+header nav .nav-list li .sub-menu li {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    background-color: #60269e;
+}
+header nav .nav-list li .sub-menu li a {
+    padding: 10px 0;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+header nav .nav-list li .sub-menu li a:hover {
+    background-color: transparent;
+}
+
+
+/*.subscribe-section {*/
+/*    text-align: left !important;*/
+/*}*/
+.em-icon {
+    top: 50%;
+    left: 17px;
+    margin-top: 1px;
+}
+.music-label-v .em-icon i {
+    color:#fff;
+}
+.music-label-v button.theme-btn {
+    background-color: #9fd961;
+    color:#000;
+}
+.subs-form .theme-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+.input-field {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    line-height: 1;
+}
+button.theme-btn {
+    padding: 0 30px;
+    line-height: 35px;
+    height:50px;
+}
+.subs-form input {
+    height: 50px;
+    font-size: 11px;
+    padding: 0 40px;
+    width: 100%;
+    background-color: #131314;
+    border-radius: 30px !important;
+    color: #69696d;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: 0 !important;
+    padding: 0 70px;
+}
+.subscribe-section > span {
+    color: #000;
+}
+
+.menu-btn > span{
+    background-color: #fff !important;
+}
+
+/*about style*/
+
+ 	html{
+ 		scroll-behavior: smooth;
+ 	}
+ 	.main-menu .inner-menu-list .menu-content .menu-heading ul li span {
+    font-family: sans-serif;
+    font-weight: 100;
+}
+ 	@font-face {font-family: "Futura Light"; src: url("fonts/Futura Light.ttf"); src: url("fonts/Futura Light.eot") format("embedded-opentype"), url("fonts/Futura Light.woff2") format("woff2")}
+ 	/*@font-face {font-family: "bobik Sans"; src: url("https://host.sabaseo.com/~alpha/banzai-bar/fonts/bobik sans-regular.woff"); src: url("https://host.sabaseo.com/~alpha/banzai-bar/fonts/bobik sans.otf") format("embedded-opentype"), url("https://host.sabaseo.com/~alpha/banzai-bar/bobik Regular Italic.otf") format("woff2")}*/
+ 	
+/*@font-face {*/
+/*    font-family: 'bobik Sans';*/
+/*    src: url('https://host.sabaseo.com/~alpha/banzai-bar/fonts/bobik_sans.woff2') format('woff2'),*/
+/*         url('https://host.sabaseo.com/~alpha/banzai-bar/fonts/bobik_sans.woff') format('woff');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+
+/*}*/
+/*@font-face {*/
+/*    font-family: 'bobik-Sans';*/
+/*    src: url('https://host.sabaseo.com/~alpha/banzai-bar/new-font/Lewis-McGuffie-Type-Bobik-Sans.otf') format('otf'),*/
+/*         url('https://host.sabaseo.com/~alpha/banzai-bar/new-font/Lewis-McGuffie-Type-Bobik-Sans.ttf') format('ttf');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+
+/*}*/
+@font-face {
+  font-family: bobik-new;
+  src: url(new-font/Lewis-McGuffie-Type-Bobik-Sans.ttf);
+}
+ 	.wrapper {
+    overflow: hidden;
+}
+ 	h1,h2,h3,h4,h5,h6{
+ 	    font-family: bobik-new !important;
+ 	    letter-spacing: 1px;
+ 	}
+ 	/*banner -image start*/
+ .banner-vid.banner-img {
+    height: 400px;
+    position: relative;
+    background-image: linear-gradient(180deg, #000000, #60269ede), url(../martini/html/musize/assets/images/menu-banner-cover.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banner-vid.banner-img .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-vid{
+       background-color: #000;
+ 	}
+ 	.h1ht {
+	    text-align: center;
+	    font-size: 65px;
+	    color: white;
+	    font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+    
+	}
+	
+    .h1ht p {
+        font-size: 18px;
+        font-family: 'Futura Light';
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+/*banner end*/
+    
+    /*Contact page style*/
+    
+    .main-heading h1 {
+    font-size: clamp(3rem, 2vw, 1rem);
+    padding: 0 0 25px 0;
+}
+    
+   .contact-info {
+    /*padding: 80px 2px;*/
+}
+.contact-info .main-info {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    
+}
+.contact-info .main-info .contact-content-inner {}
+.contact-info .main-info .contact-content-inner .map {
+    height: 550px;
+}
+.contact-info .main-info .contact-content-inner .map iframe {
+    height: 100%;
+}
+.contact-info .main-info .contact-content-inner .contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.contact-info .main-info .contact-content-inner .contact-details .contact-heading {}
+.contact-info .main-info .contact-content-inner .contact-details .contact-heading h2 {
+    font-size: 30px;
+    color: #000;
+}
+.contact-info .main-info .contact-content-inner .contact-details .main-details {}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .connection-details {
+    padding: 20px 0px;
+    color: rgba(255,255,255,0.80);
+    font-size: 18px;
+    line-height: 36px;
+}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .connection-details .contact-call,
+.contact-info .main-info .contact-content-inner .contact-details .main-details .connection-details .contact-email,
+.contact-info .main-info .contact-content-inner .contact-details .main-details .connection-details .contact-location,
+.contact-info .main-info .contact-content-inner .contact-details .main-details{
+    color: #000;
+}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .connection-details .contact-call {
+}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .connection-details .contact-call a {
+    color: #000;
+}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .connection-details .contact-email {
+    padding: 10px 0;
+}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .connection-details .contact-email a {
+    color: #000;
+}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .connection-details .contact-location {}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .connection-details .contact-location a {
+    color: #000;
+}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .cont-sub-heading {}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .cont-sub-heading h4 {
+    font-size: 25px;
+    font-weight: 800;
+}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .opening-details {
+    /*column-count: 2;*/
+    padding: 20px 0;
+}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .opening-details ul {
+    list-style: none;
+    margin: 0;
+}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .opening-details ul li {}
+.contact-info .main-info .contact-content-inner .contact-details .main-details .opening-details ul li strong {
+    font-weight: bolder;
+    font-size: 25px;
+}
+.inner-info {
+    display: grid;
+    align-content: center;
+    margin:0;
+    padding:0;
+}
+.m-0{
+    margin: 0
+}
+.inner-info:nth-child(1) {
+    background-image: url(html/musize/assets/images/resources/music-label/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.inner-info:nth-child(2) {
+    background-color: #fff;
+    color: #fff;
+    padding: 60px 60px;
+}
+.image-thumb {
+        height: 739px;
+}
+.image-thumb > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media only screen and (max-width:991px){
+    .contact-info .main-info .contact-content-inner .contact-details .main-details .opening-details{
+        column-count: 1;
+    }
+    .inner-info{
+        /* margin: 10px 0; */
+    }
+}
+
+@media only screen and (max-width:425px){
+    .inner-info:nth-child(2) {
+    padding: 45px 30px 0;
+}
+}
